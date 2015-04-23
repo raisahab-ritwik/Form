@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuildMyForm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_admin_message">If you forgot your password,please contact the administrator</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="build_my_forms_text">www.buildmyforms.com</string>
+    <string name="crash_dialog_ok_toast">Ok</string>
+
+    <!-- For Login Activity -->
+    <string name="login_not_responding">Login Failed: Could not connect to the server,Please try after some time.</string>
+    <string name="login_no_redirection_address">Login Failed: Could not connect to the server,Please try after some time.</string>
+    <string name="login_invaliduser">Invalid Username or password, Please enter correct username or password.</string>
+    <string name="login_invalid_credentials">Invalid input, Please make sure that the entered credentials are not blank.</string>
+    <string name="login_unable_to_get_network_access">No network access, Please check your Internet connection.</string>
+    <string name="login_invalid">Login Unsuccessful, Please check your login credentials or contact the administrator.</string>
+    <string name="title_alert">Alert!!</string>
+
+</resources>
