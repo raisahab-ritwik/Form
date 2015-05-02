@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center|center_horizontal"
-    android:background="@drawable/home_bg"
+    android:background="@drawable/home"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -22,104 +22,114 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/input_email_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp" >
-
-        <EditText
-            android:id="@+id/et_email"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="25"
-            android:background="@drawable/input_email"
-            android:inputType="textEmailAddress"
-            android:paddingLeft="62dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/input_password_layout"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" >
-
-        <EditText
-            android:id="@+id/et_password"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/input_password"
-            android:inputType="textPassword"
-            android:paddingLeft="62dp" />
-    </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp" >
-
-        <Button
-            android:id="@+id/chckbox_remember_me"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/chkbox_normal" />
-
-        <TextView
-            android:id="@+id/remember_me_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/chckbox_remember_me"
-            android:layout_alignBottom="@+id/chckbox_remember_me"
-            android:layout_toRightOf="@+id/chckbox_remember_me"
-            android:text="@string/remember_me"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/remember_me_text"
-            android:layout_marginLeft="2dp"
-            android:layout_toRightOf="@+id/remember_me_text"
-            android:text="@string/contact_admin_message"
-            android:textColor="@color/black"
-            android:textSize="13sp" />
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/btn_signIn"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/input_email_layout"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/signin_btn_selector" />
+            android:layout_margin="20dp"
+            android:gravity="center" >
 
-        <Button
-            android:id="@+id/btn_register"
-            android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:background="@drawable/input_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/padding_email_edittext"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_password_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" >
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/padding_password_edittext"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" >
+
+            <Button
+                android:id="@+id/chckbox_remember_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chkbox_normal" />
+
+            <TextView
+                android:id="@+id/remember_me_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/chckbox_remember_me"
+                android:layout_alignBottom="@+id/chckbox_remember_me"
+                android:layout_toRightOf="@+id/chckbox_remember_me"
+                android:text="@string/remember_me"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/remember_me_text"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/remember_me_text"
+                android:text="@string/contact_admin_message"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/register_btn_selector" />
+            android:gravity="center"
+            android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/btn_help"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/help_btn_selector" />
+            <Button
+                android:id="@+id/btn_signIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signin_btn_selector" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
-            android:text="@string/build_my_forms_text"
-            android:textColor="#ff0000" />
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/register_btn_selector" />
+
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/help_btn_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/build_my_forms_text"
+                android:textColor="#ff0000" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

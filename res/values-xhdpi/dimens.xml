@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- For Large screen -->
+    <dimen name="padding_email_edittext">63dp</dimen>
+    <dimen name="padding_password_edittext">63dp</dimen>
+    <dimen name="padding_admin_registration_edittext">67dp</dimen>
+</resources>

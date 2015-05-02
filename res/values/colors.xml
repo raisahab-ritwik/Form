@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="orange">#FD7E00</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_grey">#555555</color>
+    <color name="register_as_admin_note_color">#FD7E00</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    
+</resources>

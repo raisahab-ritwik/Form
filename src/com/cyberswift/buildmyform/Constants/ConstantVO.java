@@ -70,6 +70,7 @@ public class ConstantVO {
 	public ConstantVO(Context context) {
 
 		this.context = context;
+		
 	}
 
 	public boolean isOnline() {

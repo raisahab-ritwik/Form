@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_btn_selector"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_select_photo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selectphoto_normal" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btn_select_photo"
+        android:layout_below="@+id/btn_select_photo"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/takephoto_normal" />
+
+    <ImageView
+        android:layout_marginTop="13dp"
+        android:id="@+id/iv_captured_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btn_take_photo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/uploadimage_bg" />
+
+    <EditText
+        android:id="@+id/et_photo_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_captured_image"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/picture_hint" />
+
+    <Button
+        android:id="@+id/btn_save_photo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_photo_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/save_disable" />
+
+</RelativeLayout>

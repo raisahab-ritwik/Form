@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center|center_horizontal"
-    android:background="@drawable/background_home"
+    android:background="@drawable/home_bg"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -34,7 +34,7 @@
             android:layout_weight="25"
             android:background="@drawable/input_email"
             android:inputType="textEmailAddress"
-            android:paddingLeft="62dp" />
+            android:paddingLeft="42dp" />
     </LinearLayout>
 
     <LinearLayout

@@ -96,14 +96,14 @@ has-props
 
 layout_help.xml
 file
-298
+329
 
 
 
-2015-04-21T10:54:01.487000Z
-7c0b1d6bdcfc8f4a90494e9d9a7835df
-2015-04-21T11:33:42.021315Z
-298
+2015-04-23T12:43:47.165000Z
+d003dc273b42a117ae8f1b806a14d519
+2015-04-24T04:55:09.352241Z
+329
 ritwik.rai
 has-props
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-260
+304
 
 layout_home.xml
 file
@@ -164,11 +164,79 @@ has-props
 
 layout_info.xml
 file
+334
+
+
+
+2015-04-24T05:11:44.239000Z
+758dceb0777a053d6cd6d5cfa425f3a1
+2015-04-24T05:49:48.698128Z
+334
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1964
+
+layout_login.xml
+file
+334
+
+
+
+2015-04-24T05:37:23.132000Z
+d76456ac80edcb27fb4ebbc393a3fb20
+2015-04-24T05:49:48.698128Z
+334
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4690
+
+layout_registration.xml
+file
 298
 
 
 
-2015-04-21T11:29:12.515000Z
+2015-04-21T10:55:40.498000Z
 7c0b1d6bdcfc8f4a90494e9d9a7835df
 2015-04-21T11:33:42.021315Z
 298
@@ -196,50 +264,16 @@ has-props
 
 260
 
-layout_login.xml
+layout_splash_screen.xml
 file
-298
+334
 
 
 
-2015-04-21T10:20:37.895000Z
-d4e463711c0369e22ab38104b636bd7e
-2015-04-21T11:33:42.021315Z
-298
-ritwik.rai
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4698
-
-layout_registration.xml
-file
-298
-
-
-
-2015-04-21T10:55:40.498000Z
+2015-04-24T05:17:25.415000Z
 7c0b1d6bdcfc8f4a90494e9d9a7835df
-2015-04-21T11:33:42.021315Z
-298
+2015-04-24T05:49:48.698128Z
+334
 ritwik.rai
 has-props
 

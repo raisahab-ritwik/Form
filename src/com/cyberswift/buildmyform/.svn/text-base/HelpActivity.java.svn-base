@@ -11,4 +11,9 @@ public class HelpActivity extends Activity {
 		setContentView(R.layout.layout_help);
 	}
 
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
+	}
 }

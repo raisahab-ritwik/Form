@@ -17,44 +17,44 @@ import com.cyberswift.buildmyform.Listeners.LoginListener;
 import com.cyberswift.buildmyform.Tasks.LoginAsyncTask;
 
 public class LoginActivity extends BaseActivity implements LoginListener,OnClickListener{
-	
+
 	private Button btn_signIn,btn_register,btn_help,btn_info;
 	private EditText et_email,et_userPassword;
 	private Button saveLoginbutton;
-	
+
 	private LoginAsyncTask loginAsynTask = null;
 	Context context;
 	RememberMe rememberMe;
 	private static boolean checbox_selcection_count=false;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		setContentView(R.layout.layout_login);
-		
+
 		context=LoginActivity.this;
-		
+
 		btn_signIn=(Button) findViewById(R.id.btn_signIn);
 		btn_register=(Button) findViewById(R.id.btn_register);
 		btn_help=(Button) findViewById(R.id.btn_help);
 		btn_info=(Button) findViewById(R.id.btn_info);
-		
+
 		et_email=(EditText) findViewById(R.id.et_email);
 		et_userPassword=(EditText) findViewById(R.id.et_password);
-		
+
 		saveLoginbutton=(Button) findViewById(R.id.chckbox_remember_me);
-		
+
 		rememberMe = new RememberMe();
 		rememberMe.readFile(getApplicationContext());
-		
+
 		if (!rememberMe.getEmail().equalsIgnoreCase("")) {
 
 			et_email.setText(rememberMe.getEmail());
 			et_userPassword.setText(rememberMe.getPin());
 			checbox_selcection_count=true;
 			saveLoginbutton.setBackgroundResource(R.drawable.chkbox_selected);
-			
+
 
 			if (!checbox_selcection_count) {
 
@@ -62,15 +62,15 @@ public class LoginActivity extends BaseActivity implements LoginListener,OnClick
 				et_userPassword.setText("");
 			}
 		}
-		
+
 		btn_signIn.setOnClickListener(this);
-		
+
 		saveLoginbutton.setOnClickListener(this);
-		
+
 		btn_register.setOnClickListener(this);
-		
+
 		btn_help.setOnClickListener(this);
-		
+
 		btn_info.setOnClickListener(this);
 	}
 
@@ -94,14 +94,13 @@ public class LoginActivity extends BaseActivity implements LoginListener,OnClick
 				rememberMe.saveFile("", "", getApplicationContext());
 
 			}
-			
 			Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-			i.putExtra("orgID", object.organizationId);
-			i.putExtra("baseURL", object.baseUrl);
-			i.putExtra("userID", object.userId);
-			i.putExtra("email", object.email);
+//			i.putExtra("orgID", object.organizationId);
+//			i.putExtra("baseURL", object.baseUrl);
+//			i.putExtra("userID", object.userId);
+//			i.putExtra("email", object.email);
+			i.putExtra("LOGGED_IN_USER", object);
 			startActivity(i);
-			finish();
 		
 		} else if (object.login_status.equalsIgnoreCase(Consts.login_not_responding)) {
 			
@@ -168,19 +167,16 @@ public class LoginActivity extends BaseActivity implements LoginListener,OnClick
 		case R.id.btn_register:
 			
 			startActivity(new Intent(LoginActivity.this,RegistrationActivity.class));
-			finish();
 			break;
 			
 		case R.id.btn_help:
 
 			startActivity(new Intent(LoginActivity.this, HelpActivity.class));
-			finish();
 			break;
 
 		case R.id.btn_info:
 			
 			startActivity(new Intent(LoginActivity.this, InfoActivity.class));
-			finish();
 			break;
 			
 		default:

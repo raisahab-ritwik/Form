@@ -26,6 +26,9 @@ svn:special svn:externals svn:needs-lock
 
 579e754c-11ec-4b5e-827f-0510422e4d5e
 
+Adapters
+dir
+
 BaseActivity.java
 file
 298
@@ -65,14 +68,14 @@ dir
 
 HelpActivity.java
 file
-298
+355
 
 
 
-2015-04-21T10:54:24.521000Z
-2c1870b0ed731a9ec8978e30e857f42b
-2015-04-21T11:33:42.021315Z
-298
+2015-04-27T09:59:59.864000Z
+822b0cacdc3369f998b650b29e7774ba
+2015-04-27T10:02:32.300762Z
+355
 ritwik.rai
 has-props
 
@@ -95,18 +98,18 @@ has-props
 
 
 
-338
+450
 
 HomeActivity.java
 file
-298
+367
 
 
 
-2015-04-21T10:42:37.566000Z
-4bf17d2a8065bc177981ed703eb2c06f
-2015-04-21T11:33:42.021315Z
-298
+2015-04-28T05:31:00.032000Z
+4c40fe232b12adb64d8ef8052c6ad41c
+2015-04-28T05:35:04.285877Z
+367
 ritwik.rai
 has-props
 
@@ -129,7 +132,7 @@ has-props
 
 
 
-278
+800
 
 InfoActivity.java
 file
@@ -170,14 +173,14 @@ dir
 
 LoginActivity.java
 file
-298
+355
 
 
 
-2015-04-21T11:32:46.490000Z
-d81ad6e29d9b14114c030439b85de1e4
-2015-04-21T11:33:42.021315Z
-298
+2015-04-27T10:00:50.672000Z
+85c26ca42dd3ec10c9b64751e488cf40
+2015-04-27T10:02:32.300762Z
+355
 ritwik.rai
 has-props
 
@@ -200,7 +203,7 @@ has-props
 
 
 
-5906
+5834
 
 MainActivity.java
 file
@@ -241,14 +244,14 @@ dir
 
 RegistrationActivity.java
 file
-298
+367
 
 
 
-2015-04-21T10:56:17.010000Z
-48f00ce7c9b5cf90ca28aae3e661372a
-2015-04-21T11:33:42.021315Z
-298
+2015-04-27T12:06:09.022000Z
+7212860d174cd44109bfe7af21d5d9b9
+2015-04-28T05:35:04.285877Z
+367
 ritwik.rai
 has-props
 
@@ -271,7 +274,109 @@ has-props
 
 
 
-320
+1339
+
+RegistrationAdminActivity.java
+file
+367
+
+
+
+2015-04-27T11:14:26.217000Z
+62fead24e95d9ff6f860a5fdca67ee94
+2015-04-28T05:35:04.285877Z
+367
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+365
+
+RegistrationUserActivity.java
+file
+367
+
+
+
+2015-04-27T12:03:21.675000Z
+92a3f3b85f49944a5459d76161cda133
+2015-04-28T05:35:04.285877Z
+367
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+330
+
+SplashScreenActivity.java
+file
+334
+
+
+
+2015-04-24T05:30:25.638000Z
+1e938f598a0ea36b94f1225e86e6e035
+2015-04-24T05:49:48.698128Z
+334
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+321
 
 Tasks
 dir

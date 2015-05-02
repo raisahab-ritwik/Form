@@ -17,11 +17,34 @@
     <string name="login_unable_to_get_network_access">No network access, Please check your Internet connection.</string>
     <string name="login_invalid">Login Unsuccessful, Please check your login credentials or contact the administrator.</string>
     <string name="title_alert">Alert!!</string>
-    
-    
+
     <!-- For Info Activity -->
     <string name="info_text_bmf">Build My Forms</string>
     <string name="info_version_number">Version 1.0</string>
-    <string name="info_copyright">@Copyright CyberSWIFT LLC 2014</string>
+    <string name="info_copyright">/@Copyright CyberSWIFT LLC 2014</string>
+
+    <!-- For Registration -->
+    <string name="register_as_admin_new_org">Register as Admin for New Organization</string>
+    <string name="register_as_user">Register as User for Existing Organization</string>
+    <string name="register_as_Admin_new_org_message_text">Please use this option if you are using this system as an amin for the first time.</string>
+    <string name="register_as_user_message_text">Please use this system to register as user for an organization already registerd in this system.You will need existing Orgaization ID from your admin. </string>
+    <string name="register_text">Register</string>
+    <string name="register_as_admin_note">Note: Please fill all the fields.</string>
+    <string name="register_as_admin_organization_hint">Organization Name</string>
+    <string name="register_as_admin_profile_hint">Full Name</string>
+    <string name="register_as_admin_email_hint">Email</string>
+    <string name="register_as_admin_password_hint">Password</string>
+    <string name="register_as_admin_confirm_password_hint">Confirm Password</string>
+    <string name="register_as_user_organization_hint">Organization ID</string>
+
+    <!-- For Home Activity -->
+    <string name="form_approved_text">You have 0 forms approved.</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <!-- For TakePicture Activity -->
+    <string name="picture_hint">Please,enter note.</string>
 
 </resources>

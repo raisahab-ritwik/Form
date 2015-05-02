@@ -1,9 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="#00ff00">
-    
+    android:background="@drawable/home"
+    android:gravity="center"
+    android:orientation="vertical" >
 
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_btn_selector"
+            android:gravity="center"
+            android:onClick="onOptionsButtonClicked" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_forms_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_approved_forms"
+        android:layout_margin="5dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_approved_forms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:text="@string/form_approved_text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/option_layout_background"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+         >
+
+        <TextView
+            android:id="@+id/tv_select_option_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Option"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/input_all"
+            android:onClick="onLogoutButtonClicked"
+            android:text="@string/btn_logout"
+            android:textColor="#ff0000"
+            android:textSize="24sp" 
+            android:layout_below="@+id/tv_select_option_header"/>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/input_all"
+            android:onClick="onRefreshButtonClicked"
+            android:text="@string/btn_refresh"
+            android:textColor="@color/holo_blue_light"
+            android:textSize="24sp"
+            android:layout_below="@+id/btnLogout" />
+
+        <Button
+            android:id="@+id/btnPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/input_all"
+            android:onClick="onChangePasswordClicked"
+            android:text="@string/btn_change_password"
+            android:textColor="@color/holo_blue_light"
+            android:textSize="24sp" 
+            android:layout_below="@+id/btnRefresh"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_all"
+            android:onClick="onCancelbuttonClicked"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/holo_blue_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+           android:layout_alignParentEnd="true"
+            android:layout_below="@+id/btnPassword"/>
+    </RelativeLayout>
+
+</RelativeLayout>

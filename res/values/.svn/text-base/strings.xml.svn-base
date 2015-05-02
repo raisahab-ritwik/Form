@@ -17,5 +17,11 @@
     <string name="login_unable_to_get_network_access">No network access, Please check your Internet connection.</string>
     <string name="login_invalid">Login Unsuccessful, Please check your login credentials or contact the administrator.</string>
     <string name="title_alert">Alert!!</string>
+    
+    
+    <!-- For Info Activity -->
+    <string name="info_text_bmf">Build My Forms</string>
+    <string name="info_version_number">Version 1.0</string>
+    <string name="info_copyright">/@Copyright CyberSWIFT LLC 2014</string>
 
 </resources>

@@ -28,14 +28,38 @@ svn:special svn:externals svn:needs-lock
 
 background_home.png
 file
-298
+329
 
 
 
-2015-04-20T06:32:32.573000Z
-c1c33199a9acfcfd2fd311208b971658
-2015-04-21T11:33:42.021315Z
-298
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+bmf_logo_big.png
+file
+329
+
+
+
+2015-04-23T12:45:04.367000Z
+7332f0fa038662f696c0f06ef6c574b7
+2015-04-24T04:55:09.352241Z
+329
 ritwik.rai
 has-props
 
@@ -58,7 +82,7 @@ has-props
 
 
 
-434929
+28480
 
 chkbox_normal.png
 file
@@ -264,6 +288,40 @@ has-props
 
 18226
 
+home_bg.png
+file
+329
+
+
+
+2015-04-20T06:32:32.573000Z
+c1c33199a9acfcfd2fd311208b971658
+2015-04-24T04:55:09.352241Z
+329
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+434929
+
 ic_launcher.png
 file
 
@@ -365,6 +423,40 @@ has-props
 
 
 4883
+
+info_bg.png
+file
+329
+
+
+
+2015-04-23T12:42:47.075000Z
+a0fb401d50ad9f559045863c83734342
+2015-04-24T04:55:09.352241Z
+329
+ritwik.rai
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50467
 
 info_highlight.png
 file

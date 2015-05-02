@@ -1,6 +1,8 @@
 package com.cyberswift.buildmyform.Constants;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
 	public String baseUrl;
 	public String userId;
 	public String password;

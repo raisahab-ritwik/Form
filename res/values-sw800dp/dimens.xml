@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Large screen -->
+    <dimen name="padding_email_edittext">148dp</dimen>
+    <dimen name="padding_password_edittext">148dp</dimen>
+
+</resources>

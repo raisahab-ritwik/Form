@@ -1,0 +1,51 @@
+package com.cyberswift.buildmyform.Adapters;
+
+import com.cyberswift.buildmyform.R;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+public class FormListAdapter extends BaseAdapter {
+
+	Context context;
+	LayoutInflater inflater;
+	public FormListAdapter(Context context) {
+		
+		this.context=context;
+		inflater=(LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	}
+
+	@Override
+	public int getCount() {
+		return 0;
+	}
+
+	@Override
+	public Object getItem(int position) {
+		return null;
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return 0;
+	}
+
+	public class ViewHolder{
+		public TextView formName;
+		public ViewHolder(View row) {
+
+			formName=(TextView) row.findViewById(R.id.tv_form_list_item);
+			
+		}
+	}
+	
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		return null;
+	}
+
+}

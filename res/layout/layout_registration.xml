@@ -2,7 +2,55 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:gravity="center"
     android:orientation="vertical" >
-    
+
+    <Button
+        android:id="@+id/btn_registeras_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/btn_plain"
+        android:text="@string/register_as_admin_new_org"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_registeras_admin_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/register_as_Admin_new_org_message_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_registeras_user"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_plain"
+        android:text="@string/register_as_user"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_registeras_user_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:lines="3"
+        android:text="@string/register_as_user_message_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
 
 </LinearLayout>

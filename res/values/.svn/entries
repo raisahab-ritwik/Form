@@ -28,14 +28,14 @@ svn:special svn:externals svn:needs-lock
 
 color.xml
 file
-287
+334
 
 
 
-2015-04-20T12:25:23.331000Z
-7a1b1912a4d7ab3284bcf6ce429c54fc
-2015-04-20T13:25:22.794620Z
-287
+2015-04-24T05:08:31.221000Z
+2f6aec409108d58c90f71e1d3132a9a9
+2015-04-24T05:49:48.698128Z
+334
 ritwik.rai
 has-props
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-114
+156
 
 dimens.xml
 file
@@ -96,14 +96,14 @@ has-props
 
 strings.xml
 file
-298
+329
 
 
 
-2015-04-21T09:25:45.900000Z
-f251316c3bf6e7a8d831a608fc6587b4
-2015-04-21T11:33:42.021315Z
-298
+2015-04-24T04:43:55.692000Z
+21650919eca3e7c83bc0cd5e1b10b84b
+2015-04-24T04:55:09.352241Z
+329
 ritwik.rai
 has-props
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-1338
+1571
 
 styles.xml
 file
